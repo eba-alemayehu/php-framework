@@ -1,0 +1,16 @@
+{
+    "name": "root/library",
+    "authors": [
+        {
+            "name": "eba alemayehu",
+            "email": "eba.alemayehu100@gmail.com"
+        }
+    ],
+    "require": {}, 
+    "autoload": {
+        "psr-4":{
+            "Application\\": "vendor/Application",
+            "App\\": "app"
+        }
+    }
+}

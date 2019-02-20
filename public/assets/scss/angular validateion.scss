@@ -1,0 +1,18 @@
+$error_color: #c4001d;
+$error_color_light: #ffcdcd;
+
+.form-control.ng-touched.ng-invalid{
+    border-color: $error_color;
+  -webkit-box-shadow: 0 0 0 0.2rem  $error_color_light;
+  -moz-box-shadow:0 0 0 0.2rem $error_color_light;
+  box-shadow:0 0 0 0.2rem  $error_color_light;
+}
+.form-text.error{
+  color: $error_color;
+  font-size: .5rem;
+}
+.form-loading{
+  cursor: wait;
+  opacity: .3;
+  pointer-events: none;
+}
