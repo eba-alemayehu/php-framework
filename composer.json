@@ -6,7 +6,9 @@
             "email": "eba.alemayehu100@gmail.com"
         }
     ],
-    "require": {}, 
+    "require": {
+        "vlucas/phpdotenv": "^4.1"
+    }, 
     "autoload": {
         "psr-4":{
             "Application\\": "vendor/Application",

@@ -22,8 +22,11 @@ class Router
     }
 
     public static function url(){
-        $url = isset($_GET["url"])?$_GET["url"]: "";
-        return "/".$url;
+        if(isset($_GET['url'])){
+            return $_GET["url"];
+        }else{
+            return (isset($_SERVER['PATH_INFO'])?$_SERVER['PATH_INFO']:""); 
+        }
     }
 
     public static function params(){
