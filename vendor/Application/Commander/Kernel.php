@@ -44,6 +44,12 @@ class Kernel{
                     }
                 }
                 break;
+
+            case 'serve': 
+                echo "php is serving at http://localhost:8080 \n"; 
+                shell_exec('cd public && php -S localhost:8080'); 
+                
+                break; 
         }
     }
 

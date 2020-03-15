@@ -53,11 +53,22 @@ class ComposerStaticInit37135ef82f2ddeb5955b2d71d19cb985
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'C' => 
+        array (
+            'Colors' => 
+            array (
+                0 => __DIR__ . '/..' . '/kevinlebrun/colors.php/src',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit37135ef82f2ddeb5955b2d71d19cb985::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit37135ef82f2ddeb5955b2d71d19cb985::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit37135ef82f2ddeb5955b2d71d19cb985::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
