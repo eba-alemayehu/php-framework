@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Application\Framework\Support\Auth;
 use Application\Framework\Support\View;
 
-class DashboardController{
+class HomeController{
     public function index(){
-        return  View::view("dashboard");
+        return View::view('home'); 
     }
 }

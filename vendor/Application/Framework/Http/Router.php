@@ -25,7 +25,7 @@ class Router
         if(isset($_GET['url'])){
             return $_GET["url"];
         }else{
-            return (isset($_SERVER['PATH_INFO'])?$_SERVER['PATH_INFO']:""); 
+            return (isset($_SERVER['PATH_INFO'])?$_SERVER['PATH_INFO']:"/"); 
         }
     }
 
