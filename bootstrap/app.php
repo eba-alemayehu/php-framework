@@ -2,4 +2,4 @@
 
 require_once "../vendor/autoload.php"; 
 
-$kernel = new Application\Framework\Kernel();
+$kernel = new Application\Kernel();

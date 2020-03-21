@@ -1,5 +1,65 @@
 [
     {
+        "name": "dmu/application",
+        "version": "v1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eba-alemayehu/php-framework-core.git",
+            "reference": "688c2514ebd405d287f0957a661b8fc891fc54a8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eba-alemayehu/php-framework-core/zipball/688c2514ebd405d287f0957a661b8fc891fc54a8",
+            "reference": "688c2514ebd405d287f0957a661b8fc891fc54a8",
+            "shasum": ""
+        },
+        "time": "2020-03-20T20:47:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "eba",
+                "email": "ebaalemayehu3@gmail.com"
+            }
+        ],
+        "description": "Core of a php framework devloped in Debremarkos University"
+    },
+    {
+        "name": "dmu/commander",
+        "version": "v1.0.11",
+        "version_normalized": "1.0.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eba-alemayehu/php-framework-commander.git",
+            "reference": "d56807552f7f4b310261d9e3ecd47a05a99f4d16"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eba-alemayehu/php-framework-commander/zipball/d56807552f7f4b310261d9e3ecd47a05a99f4d16",
+            "reference": "d56807552f7f4b310261d9e3ecd47a05a99f4d16",
+            "shasum": ""
+        },
+        "time": "2020-03-19T23:28:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "eba",
+                "email": "ebaaleamyhu3@gmail.com"
+            }
+        ],
+        "description": "Console helpler for php-framework"
+    },
+    {
         "name": "kevinlebrun/colors.php",
         "version": "1.0.3",
         "version_normalized": "1.0.3.0",

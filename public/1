@@ -1,0 +1,1059 @@
+[20-Mar-2020 01:59:58 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Class '\App\Http\Controllers\HomeController' not found in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:35
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(13): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 35
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   5. Application\Http\Router::middlewares() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:25
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:50
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:36
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   5. Application\Http\Router::middlewares() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:25
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:50
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:37
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   5. Application\Http\Router::controller() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:32
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:46
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:36
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   5. Application\Http\Router::controller() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:32
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:46
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:37
+[20-Mar-2020 02:57:01 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   5. Application\Http\Router::middlewares() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:25
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:50
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:36
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   5. Application\Http\Router::middlewares() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:25
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:50
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:37
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   5. Application\Http\Router::controller() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:32
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:46
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:36
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   5. Application\Http\Router::controller() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:32
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:46
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:37
+[20-Mar-2020 02:58:10 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   5. Application\Http\Router::middlewares() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:25
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:50
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:36
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   5. Application\Http\Router::middlewares() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:25
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:50
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:37
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   5. Application\Http\Router::controller() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:32
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:46
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:36
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/routes/router.php on line 2
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   5. Application\Http\Router::controller() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:32
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   6. Application\Http\Router::params() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:46
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   7. Application\Http\Router::loadRouter() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:37
+[20-Mar-2020 02:58:39 Africa/Khartoum] PHP   8. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:22
+[20-Mar-2020 03:37:25 Africa/Khartoum] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 03:37:25 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 03:37:25 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 03:37:25 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 03:37:25 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 03:37:25 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 03:37:25 Africa/Khartoum] PHP   5. Application\Http\Router->__construct() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:23
+[20-Mar-2020 03:37:25 Africa/Khartoum] PHP   6. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:18
+[20-Mar-2020 03:37:25 Africa/Khartoum] PHP   7. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/routes/router.php:5
+[20-Mar-2020 03:37:25 Africa/Khartoum] PHP   8. array_push() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:55
+[20-Mar-2020 03:38:06 Africa/Khartoum] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 03:38:06 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 03:38:06 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 03:38:06 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 03:38:06 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 03:38:06 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 03:38:06 Africa/Khartoum] PHP   5. Application\Http\Router->__construct() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:23
+[20-Mar-2020 03:38:06 Africa/Khartoum] PHP   6. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:18
+[20-Mar-2020 03:38:06 Africa/Khartoum] PHP   7. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/routes/router.php:5
+[20-Mar-2020 03:38:06 Africa/Khartoum] PHP   8. array_push() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:55
+[20-Mar-2020 03:39:14 Africa/Khartoum] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 03:39:14 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 03:39:14 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 03:39:14 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 03:39:14 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 03:39:14 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 03:39:14 Africa/Khartoum] PHP   5. Application\Http\Router->__construct() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:23
+[20-Mar-2020 03:39:14 Africa/Khartoum] PHP   6. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:18
+[20-Mar-2020 03:39:14 Africa/Khartoum] PHP   7. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/routes/router.php:5
+[20-Mar-2020 03:39:14 Africa/Khartoum] PHP   8. array_push() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:55
+[20-Mar-2020 15:21:14 Africa/Khartoum] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 15:21:14 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 15:21:14 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 15:21:14 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 15:21:14 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 15:21:14 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 15:21:14 Africa/Khartoum] PHP   5. Application\Http\Router->__construct() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:23
+[20-Mar-2020 15:21:14 Africa/Khartoum] PHP   6. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:18
+[20-Mar-2020 15:21:14 Africa/Khartoum] PHP   7. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/routes/router.php:5
+[20-Mar-2020 15:21:14 Africa/Khartoum] PHP   8. array_push() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:55
+[20-Mar-2020 15:26:17 Africa/Khartoum] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 15:26:17 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 15:26:17 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 15:26:17 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 15:26:17 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 15:26:17 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:13
+[20-Mar-2020 15:26:17 Africa/Khartoum] PHP   5. Application\Http\Router->__construct() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:23
+[20-Mar-2020 15:26:17 Africa/Khartoum] PHP   6. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:18
+[20-Mar-2020 15:26:17 Africa/Khartoum] PHP   7. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/routes/router.php:5
+[20-Mar-2020 15:26:17 Africa/Khartoum] PHP   8. array_push() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:55
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:14
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   5. Application\Http\Router->__construct() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:24
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   6. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:18
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   7. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/routes/router.php:5
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:14
+[20-Mar-2020 15:34:20 Africa/Khartoum] PHP   5. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:25
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   5. Application\Http\Router->__construct() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:25
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   6. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:18
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   7. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/routes/router.php:5
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 15:36:51 Africa/Khartoum] PHP   5. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:26
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   5. Application\Http\Router->__construct() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:25
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   6. require() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php:18
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   7. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/routes/router.php:5
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 15:39:03 Africa/Khartoum] PHP   5. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:26
+[20-Mar-2020 15:41:21 Africa/Khartoum] PHP Notice:  Undefined variable: routes in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Http/Router.php on line 55
+[20-Mar-2020 15:41:21 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 15:41:21 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 15:41:21 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 15:41:21 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 15:41:21 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 15:41:21 Africa/Khartoum] PHP   5. Application\Http\Router::get() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:26
+[20-Mar-2020 19:16:54 Africa/Khartoum] PHP Notice:  Undefined property: Application\Http\Route::$route in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 27
+[20-Mar-2020 19:16:54 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:16:54 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:16:54 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:16:54 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:16:54 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:16:54 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function middlewares() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:27
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 27
+[20-Mar-2020 19:18:12 Africa/Khartoum] PHP Notice:  Undefined property: Application\Http\Route::$route in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 27
+[20-Mar-2020 19:18:12 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:18:12 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:18:12 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:18:12 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:18:12 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:18:12 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function middlewares() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:27
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 27
+[20-Mar-2020 19:20:24 Africa/Khartoum] PHP Notice:  Undefined property: Application\Http\Route::$route in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 27
+[20-Mar-2020 19:20:24 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:20:24 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:20:24 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:20:24 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:20:24 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:20:24 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function middlewares() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:27
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 27
+[20-Mar-2020 19:20:52 Africa/Khartoum] PHP Notice:  Undefined property: Application\Http\Route::$route in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 28
+[20-Mar-2020 19:20:52 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:20:52 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:20:52 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:20:52 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:20:52 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:20:52 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function middlewares() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:28
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 28
+[20-Mar-2020 19:21:16 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function middlewares() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:28
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 28
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 28
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 28
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:21:27 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:35
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 35
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 28
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 28
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:21:47 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:35
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 35
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 27
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:22:39 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:22:56 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:23:10 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:23:27 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:24:22 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:25:13 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:25:38 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:26:18 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:26:20 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:26:22 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:26:58 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:27:29 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:27:42 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:27:50 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:29:10 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:29:55 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:17 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:32 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:33 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:34 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:47 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:48 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:49 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:30:56 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:31:04 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on array in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:31:26 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:31:36 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:33:08 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP Notice:  Trying to get property 'middlewares' of non-object in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 29
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:33:47 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to a member function controller() on null in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:34:31 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Call to undefined method Application\Http\Route::controller() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:36
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 36
+[20-Mar-2020 19:36:36 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Class '\App\Http\Controllers\H' not found in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:40
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 40
+[20-Mar-2020 19:37:24 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Class '\App\Http\Controllers\H' not found in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:41
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 41
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP Notice:  Undefined property: Application\Http\Route::$controllerClass in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 39
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP Notice:  Undefined property: Application\Http\Route::$controllerMethod in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 40
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 19:44:44 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:42
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 42
+[20-Mar-2020 19:45:00 Africa/Khartoum] PHP Fatal error:  Uncaught Error: Class '\App\Http\Controllers\H' not found in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:42
+Stack trace:
+#0 /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php(15): Application\Kernel->run()
+#1 /home/eba/Githab/framework/php-framework/bootstrap/app.php(5): Application\Kernel->__construct()
+#2 /home/eba/Githab/framework/php-framework/public/index.php(2): require_once('/home/eba/Githa...')
+#3 {main}
+  thrown in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 42
+[20-Mar-2020 22:55:31 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 33
+[20-Mar-2020 22:55:31 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 22:55:31 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 22:55:31 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 22:55:31 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 22:55:31 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15
+[20-Mar-2020 22:58:15 Africa/Khartoum] PHP Warning:  Invalid argument supplied for foreach() in /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php on line 34
+[20-Mar-2020 22:58:15 Africa/Khartoum] PHP Stack trace:
+[20-Mar-2020 22:58:15 Africa/Khartoum] PHP   1. {main}() /home/eba/Githab/framework/php-framework/public/index.php:0
+[20-Mar-2020 22:58:15 Africa/Khartoum] PHP   2. require_once() /home/eba/Githab/framework/php-framework/public/index.php:2
+[20-Mar-2020 22:58:15 Africa/Khartoum] PHP   3. Application\Kernel->__construct() /home/eba/Githab/framework/php-framework/bootstrap/app.php:5
+[20-Mar-2020 22:58:15 Africa/Khartoum] PHP   4. Application\Kernel->run() /home/eba/Githab/framework/php-framework/vendor/dmu/application/Kernel.php:15

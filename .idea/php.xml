@@ -5,6 +5,12 @@
       <path value="$PROJECT_DIR$/vendor/Application/Commander" />
       <path value="$PROJECT_DIR$/vendor/Application/Framework" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/dmu/application" />
+      <path value="$PROJECT_DIR$/vendor/dmu/commander" />
+      <path value="$PROJECT_DIR$/vendor/kevinlebrun/colors.php" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
     </include_path>
   </component>
 </project>

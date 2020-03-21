@@ -12,10 +12,10 @@ namespace App\Http\Middlewares;
 class Role
 {
     public function before(){
-        echo "before";
+        
 
     }
     public function after(){
-        echo "after";
+        
     }
 }

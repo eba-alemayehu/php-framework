@@ -13,8 +13,8 @@ namespace App\Http\Middlewares;
 class Gust
 {
     public function before(){
-        if(\Application\Framework\Support\Auth::check()){
-            \Application\Framework\Support\Response::redirect('dashboard');
+        if(\Application\Support\Auth::check()){
+            http_response_code(403); 
         }
     }
     public function after(){

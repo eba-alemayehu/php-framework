@@ -8,12 +8,15 @@
     ],
     "require": {
         "vlucas/phpdotenv": "^4.1",
-        "kevinlebrun/colors.php": "^1.0"
+        "kevinlebrun/colors.php": "^1.0",
+        "dmu/commander": "^1.0",
+        "dmu/application": "^1.0"
     }, 
     "autoload": {
         "psr-4":{
-            "Application\\": "vendor/Application",
-            "App\\": "app"
+            "Application\\": "vendor/dmu/application",
+            "App\\": "app", 
+            "Commander\\": "vendor/dmu/commander"
         }
     }
 }

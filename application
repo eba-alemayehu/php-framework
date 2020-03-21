@@ -1,7 +1,8 @@
 <?php
 require "vendor/autoload.php"; 
 
-use Application\Commander\Kernel; 
+use Commander\Kernel; 
 
-$kernel = new Kernel($argv); 
+$kernel = new Kernel($argv);  
+$kernel->exec(); 
 print_r($kernel->terminate()); 

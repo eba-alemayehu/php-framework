@@ -3,8 +3,8 @@
 return [
     'db_connection' => 'mysql', 
     'db_host' => 'localhost',
-    'db_name' => 'liborary',
+    'db_name' => 'mydb',
     'db_port' => '3306', 
-    'db_username' => 'eba',
-    'db_password' => '222222'
+    'db_username' => 'root',
+    'db_password' => ''
 ]; 
