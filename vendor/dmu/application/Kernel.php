@@ -58,6 +58,8 @@ class Kernel{
         foreach($middelwares as $middelware){
             $middelware->after($response);
         }
-        echo $response;
+        
+        if(is_string($response))
+            echo $response;
     }
 }

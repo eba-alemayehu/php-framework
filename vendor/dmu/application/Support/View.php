@@ -32,21 +32,12 @@ class View
     }
 
     public function show(){
-//        $r = new Role();
-//        if(Auth::check())
-//            $role = $r->find(Auth::id());
-//        else
-//            $role = null;
-
         foreach($this->data as $key=>$val){
             $$key = $val;
         }
         $session = new Session();
-//        $auth = new User();
-//        if(isset($_SESSION['id']))
-//            $auth = $auth->find($_SESSION['id']);
-//        else
-//            $auth = null;
-        return require($this->file);
+
+        require($this->file);
+        return $this; 
     }
 }

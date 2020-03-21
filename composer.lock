@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "dmu/application",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eba-alemayehu/php-framework-core.git",
-                "reference": "688c2514ebd405d287f0957a661b8fc891fc54a8"
+                "reference": "75342a9a3c589c6a04ba2a4a3ba4285284d53525"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eba-alemayehu/php-framework-core/zipball/688c2514ebd405d287f0957a661b8fc891fc54a8",
-                "reference": "688c2514ebd405d287f0957a661b8fc891fc54a8",
+                "url": "https://api.github.com/repos/eba-alemayehu/php-framework-core/zipball/75342a9a3c589c6a04ba2a4a3ba4285284d53525",
+                "reference": "75342a9a3c589c6a04ba2a4a3ba4285284d53525",
                 "shasum": ""
             },
             "type": "library",
@@ -32,7 +32,7 @@
                 }
             ],
             "description": "Core of a php framework devloped in Debremarkos University",
-            "time": "2020-03-20T20:47:00+00:00"
+            "time": "2020-03-21T02:18:01+00:00"
         },
         {
             "name": "dmu/commander",
