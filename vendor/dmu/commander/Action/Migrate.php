@@ -1,41 +1,46 @@
 <?php
 
-namespace Commander\Action; 
+namespace Commander\Action;
+
+use Commander\Util\Color;
+use Exception;
 
 class Migrate extends Action{
-    public $action = "make:migration"; 
+    public $action = "migrate"; 
 
     public function help(){
         return "Create new migration"; 
     }
     
-    public function run($args)
-    {
-        if(isset($args[0])){
+    private function migrate($class){
+        try{
             $namespace = "\\App\\Database\\Migrations\\";
-            $class = $args[0];
             $obj = $namespace."".$class;
 
             $mig = new $obj();
             $mig->up();
-            $mig->create();
+            $table = $mig->create();
+            echo Color::orange("\t $table").Color::green(" table is created. \r\n");
+        }catch(Exception $e){
+            echo Color::red("Migration faild! \r\n"); 
+            echo Color::red($e->getMessage()); 
+        }
+         
+    }
+    public function run($args)
+    {
+        echo Color::yellow("Migration started. \n"); 
+        if(isset($args[0])){
+            $this->migrate($args[0]);
         }else{
 
             $migrations = scandir(APPLICATION_ROOT . "/app/Database/Migrations/");
             foreach ($migrations as $migration) {
-
                 if ($migration != "." && $migration != "..") {
-
-                    $namespace = "\\App\\Database\\Migrations\\";
-                    $class = explode(".", $migration)[0];
-                    $obj = $namespace."".$class;
-
-                    $mig = new $obj();
-                    $mig->up();
-                    $mig->create();
+                    $this->migrate(explode(".", $migration)[0]);
                 }
             }
         }
-        
+        echo Color::yellow("Migration finished. \n");  
     }
 }

@@ -8,6 +8,7 @@
 
 namespace Application\Database;
 
+use Exception;
 
 class Table extends Connection
 {
@@ -27,6 +28,7 @@ class Table extends Connection
         parent::__construct();
         $table_name = explode("\\", get_class($this));
         $this->table = strtolower($table_name[count($table_name)-1]);
+        $this->table = str_replace('migration', "", $this->table); 
         $this->_create_table_statement = "CREATE TABLE $this->table ";
         $this->cols = [];
     }
@@ -60,7 +62,7 @@ class Table extends Connection
         $col .= ($default)? " DEFAULT $default ": "";
         array_push($this->cols, $col);
     }
-    public function date($col,$nullable = self::NOT_NULL, $default = "CURDATE()"){
+    public function date($col,$nullable = self::NOT_NULL, $default = ""){
         $col = "`$col` DATE $nullable";
         $col .= ($default)? " DEFAULT $default ": "";
         array_push($this->cols, $col);
@@ -72,11 +74,18 @@ class Table extends Connection
     }
 
     public function create(){
-        $sql =  "$this->_create_table_statement (";
-        $sql .= implode(",", $this->cols). " )  ENGINE = InnoDB";
-        echo $sql;
-        parent::prepare($sql)->execute();
+        try{
+            $sql =  "$this->_create_table_statement (";
+            $sql .= implode(",", $this->cols). " )  ENGINE = InnoDB";
 
+            $prepare = parent::prepare($sql); 
+            if($prepare)
+                $prepare->execute();
+        
+            return $this->table; 
+        }catch(Exception $e){
+            echo $e->getMessage(); 
+        }
     }
 
 

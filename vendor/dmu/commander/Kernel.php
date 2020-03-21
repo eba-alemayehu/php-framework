@@ -9,16 +9,20 @@ class Kernel{
     private $message; 
 
 
-    private $actions = [
+    public $actions = [
         \Commander\Action\Controller::class,
         \Commander\Action\Middeleware::class,
         \Commander\Action\Migration::class,
         \Commander\Action\Serve::class,
         \Commander\Action\Migrate::class,
-        \Commander\Action\RouteList::class
+        \Commander\Action\RouteList::class, 
+        \Commander\Action\Help::class
     ]; 
     public function __construct($_args){
         $this->arguments = $_args; 
+        $dotenv = \Dotenv\Dotenv::createImmutable(APPLICATION_ROOT);
+        $dotenv->load();
+
     }
 
     public function exec(){

@@ -8,6 +8,7 @@ class ComposerStaticInit37135ef82f2ddeb5955b2d71d19cb985
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '5eb317c82515bd1408e6bab1f53aad67' => __DIR__ . '/..' . '/dmu/application/Support/global.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -71,12 +72,17 @@ class ComposerStaticInit37135ef82f2ddeb5955b2d71d19cb985
         ),
     );
 
+    public static $classMap = array (
+        'Console_Table' => __DIR__ . '/..' . '/pear/console_table/Table.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit37135ef82f2ddeb5955b2d71d19cb985::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit37135ef82f2ddeb5955b2d71d19cb985::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit37135ef82f2ddeb5955b2d71d19cb985::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit37135ef82f2ddeb5955b2d71d19cb985::$classMap;
 
         }, null, ClassLoader::class);
     }

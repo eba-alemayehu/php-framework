@@ -17,6 +17,7 @@
             "Application\\": "vendor/dmu/application",
             "App\\": "app", 
             "Commander\\": "vendor/dmu/commander"
-        }
+        }, 
+        "files": ["vendor/dmu/application/Support/global.php"]
     }
 }

@@ -1,6 +1,8 @@
 <?php
 
-namespace Commander\Action; 
+namespace Commander\Action;
+
+use Commander\Util\Color;
 
 class Serve extends Action{
     public $action = "serve"; 
@@ -11,7 +13,19 @@ class Serve extends Action{
     
     public function run($args)
     {
-        echo "php is serving at http://localhost:8080 \n"; 
-        shell_exec('cd public && php -S localhost:8080'); 
+        $host = "localhost"; 
+        $port = 8080; 
+
+        for($i = $port; $i < 10000; $i++){
+            $connection = @fsockopen($host, $port);
+            if (!is_resource($connection))
+            {
+                echo Color::green("Application is serving at http://localhost:8080 \n"); 
+                shell_exec('cd public && php -S localhost:8080'); 
+                break; 
+            }
+            
+        }
+        
     }
 }

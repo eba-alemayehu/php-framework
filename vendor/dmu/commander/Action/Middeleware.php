@@ -8,6 +8,7 @@
 
 namespace Commander\Action;
 
+use Commander\Util\Color;
 
 class Middeleware extends Action
 {
@@ -19,12 +20,13 @@ class Middeleware extends Action
     public function run($params)
     {
         if(isset($params[0])){
-            $this->templet(
-                __DIR__."/Templets/middeleware.php", 
-                APPLICATION_ROOT."/app/Http/Middlewares/".$params[0].".php", 
-                ["name" => $params[0]]); 
+            $file = APPLICATION_ROOT."/app/Http/Middlewares/".$params[0].".php";
+            $this->templet(__DIR__."/Templets/middeleware.php", $file, ["name" => $params[0]]); 
+
+            echo Color::green("New $params[0] Middeleware is created \r\n"); 
+            echo Color::yellow('Middelware: ').Color::green("app/Http/Middlewares/".$params[0].".php". "\r\n"); 
         }else{
-            throw new \Exception("Controller name is not supplied"); 
+            Color::red("Controller name is not supplied"); 
         }
     }
 }

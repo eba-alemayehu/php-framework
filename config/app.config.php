@@ -1,7 +1,7 @@
 <?php 
 
 return [
-    'app_name' => 'My app', 
-    'root_URL' => 'http://localhost',
-    'debug' => true
+    'app_name' => env('APP_NAME','My app'), 
+    'root_URL' => env('ROOT_URL','http://localhost'),
+    'debug' => env('DEBUG',true)
 ]; 

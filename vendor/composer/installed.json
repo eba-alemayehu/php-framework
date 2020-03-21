@@ -1,20 +1,20 @@
 [
     {
         "name": "dmu/application",
-        "version": "v1.0.6",
-        "version_normalized": "1.0.6.0",
+        "version": "v1.0.19",
+        "version_normalized": "1.0.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/eba-alemayehu/php-framework-core.git",
-            "reference": "75342a9a3c589c6a04ba2a4a3ba4285284d53525"
+            "reference": "65aecd2792c35aa8702b6bf8810035ce9e9c0474"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/eba-alemayehu/php-framework-core/zipball/75342a9a3c589c6a04ba2a4a3ba4285284d53525",
-            "reference": "75342a9a3c589c6a04ba2a4a3ba4285284d53525",
+            "url": "https://api.github.com/repos/eba-alemayehu/php-framework-core/zipball/65aecd2792c35aa8702b6bf8810035ce9e9c0474",
+            "reference": "65aecd2792c35aa8702b6bf8810035ce9e9c0474",
             "shasum": ""
         },
-        "time": "2020-03-21T02:18:01+00:00",
+        "time": "2020-03-21T22:51:04+00:00",
         "type": "library",
         "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",
@@ -31,20 +31,24 @@
     },
     {
         "name": "dmu/commander",
-        "version": "v1.0.11",
-        "version_normalized": "1.0.11.0",
+        "version": "v1.0.26",
+        "version_normalized": "1.0.26.0",
         "source": {
             "type": "git",
             "url": "https://github.com/eba-alemayehu/php-framework-commander.git",
-            "reference": "d56807552f7f4b310261d9e3ecd47a05a99f4d16"
+            "reference": "ffeb92dca71ed4874ab73d37ffe3e8c56636207c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/eba-alemayehu/php-framework-commander/zipball/d56807552f7f4b310261d9e3ecd47a05a99f4d16",
-            "reference": "d56807552f7f4b310261d9e3ecd47a05a99f4d16",
+            "url": "https://api.github.com/repos/eba-alemayehu/php-framework-commander/zipball/ffeb92dca71ed4874ab73d37ffe3e8c56636207c",
+            "reference": "ffeb92dca71ed4874ab73d37ffe3e8c56636207c",
             "shasum": ""
         },
-        "time": "2020-03-19T23:28:41+00:00",
+        "require": {
+            "pear/console_table": "^1.3",
+            "vlucas/phpdotenv": "^4.1"
+        },
+        "time": "2020-03-21T23:06:22+00:00",
         "type": "library",
         "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",
@@ -113,28 +117,85 @@
         ]
     },
     {
-        "name": "phpoption/phpoption",
-        "version": "1.7.2",
-        "version_normalized": "1.7.2.0",
+        "name": "pear/console_table",
+        "version": "v1.3.1",
+        "version_normalized": "1.3.1.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/schmittjoh/php-option.git",
-            "reference": "77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959"
+            "url": "https://github.com/pear/Console_Table.git",
+            "reference": "1930c11897ca61fd24b95f2f785e99e0f36dcdea"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959",
-            "reference": "77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959",
+            "url": "https://api.github.com/repos/pear/Console_Table/zipball/1930c11897ca61fd24b95f2f785e99e0f36dcdea",
+            "reference": "1930c11897ca61fd24b95f2f785e99e0f36dcdea",
             "shasum": ""
         },
         "require": {
-            "php": "^5.5.9 || ^7.0"
+            "php": ">=5.2.0"
+        },
+        "suggest": {
+            "pear/Console_Color2": ">=0.1.2"
+        },
+        "time": "2018-01-25T20:47:17+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "Table.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Jan Schneider",
+                "homepage": "http://pear.php.net/user/yunosh"
+            },
+            {
+                "name": "Tal Peer",
+                "homepage": "http://pear.php.net/user/tal"
+            },
+            {
+                "name": "Xavier Noguer",
+                "homepage": "http://pear.php.net/user/xnoguer"
+            },
+            {
+                "name": "Richard Heyes",
+                "homepage": "http://pear.php.net/user/richard"
+            }
+        ],
+        "description": "Library that makes it easy to build console style tables.",
+        "homepage": "http://pear.php.net/package/Console_Table/",
+        "keywords": [
+            "console"
+        ]
+    },
+    {
+        "name": "phpoption/phpoption",
+        "version": "1.7.3",
+        "version_normalized": "1.7.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/schmittjoh/php-option.git",
+            "reference": "4acfd6a4b33a509d8c88f50e5222f734b6aeebae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/4acfd6a4b33a509d8c88f50e5222f734b6aeebae",
+            "reference": "4acfd6a4b33a509d8c88f50e5222f734b6aeebae",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9 || ^7.0 || ^8.0"
         },
         "require-dev": {
             "bamarni/composer-bin-plugin": "^1.3",
             "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
         },
-        "time": "2019-12-15T19:35:24+00:00",
+        "time": "2020-03-21T18:07:53+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {

@@ -18,6 +18,8 @@ class Router
     private $middleware; 
     public $route;
 
+    private $http_methods = ['GET', 'POST', 'PUT', 'DELETE']; 
+
     public function __construct($find_current_route = true)
     {
         $this->routes = []; 
@@ -132,8 +134,9 @@ class Router
         $methods = $class->getMethods(\ReflectionMethod::IS_PUBLIC);
         
         foreach($methods as $method){
-
             $requestMethod = strtoupper(preg_split('/(?=[A-Z_])/',$method->name)[0]);
+            $requestMethod = in_array($requestMethod, $this->http_methods)? $requestMethod: 'GET'; 
+            
             $this->route($requestMethod, $url.'/'.ltrim($method->name, strtolower($requestMethod)), $controller.'@'.$method->name); 
         }
         return $this;
