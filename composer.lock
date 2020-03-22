@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "852a78c0471430dbbeeeaee4bc1b185f",
+    "content-hash": "f6710f9f68f0ee2e5dc850b5d15c78bc",
     "packages": [
         {
             "name": "dmu/application",
-            "version": "v1.0.19",
+            "version": "v1.0.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eba-alemayehu/php-framework-core.git",
-                "reference": "65aecd2792c35aa8702b6bf8810035ce9e9c0474"
+                "reference": "b5e9b7a3bd4585fca79ed5596d1dc75cd71b5c77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eba-alemayehu/php-framework-core/zipball/65aecd2792c35aa8702b6bf8810035ce9e9c0474",
-                "reference": "65aecd2792c35aa8702b6bf8810035ce9e9c0474",
+                "url": "https://api.github.com/repos/eba-alemayehu/php-framework-core/zipball/b5e9b7a3bd4585fca79ed5596d1dc75cd71b5c77",
+                "reference": "b5e9b7a3bd4585fca79ed5596d1dc75cd71b5c77",
                 "shasum": ""
             },
             "type": "library",
@@ -32,20 +32,20 @@
                 }
             ],
             "description": "Core of a php framework devloped in Debremarkos University",
-            "time": "2020-03-21T22:51:04+00:00"
+            "time": "2020-03-22T18:24:32+00:00"
         },
         {
             "name": "dmu/commander",
-            "version": "v1.0.26",
+            "version": "v1.0.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eba-alemayehu/php-framework-commander.git",
-                "reference": "ffeb92dca71ed4874ab73d37ffe3e8c56636207c"
+                "reference": "3680a9ea875caa4604a4e7c65aa582d66615c834"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eba-alemayehu/php-framework-commander/zipball/ffeb92dca71ed4874ab73d37ffe3e8c56636207c",
-                "reference": "ffeb92dca71ed4874ab73d37ffe3e8c56636207c",
+                "url": "https://api.github.com/repos/eba-alemayehu/php-framework-commander/zipball/3680a9ea875caa4604a4e7c65aa582d66615c834",
+                "reference": "3680a9ea875caa4604a4e7c65aa582d66615c834",
                 "shasum": ""
             },
             "require": {
@@ -64,58 +64,7 @@
                 }
             ],
             "description": "Console helpler for php-framework",
-            "time": "2020-03-21T23:06:22+00:00"
-        },
-        {
-            "name": "kevinlebrun/colors.php",
-            "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kevinlebrun/colors.php.git",
-                "reference": "cdda5eee41314b87cd5a8bb91b1ffc7c0210e673"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kevinlebrun/colors.php/zipball/cdda5eee41314b87cd5a8bb91b1ffc7c0210e673",
-                "reference": "cdda5eee41314b87cd5a8bb91b1ffc7c0210e673",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*",
-                "satooshi/php-coveralls": "1.0.*",
-                "squizlabs/php_codesniffer": "1.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Colors": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kevin Le Brun",
-                    "email": "lebrun.k@gmail.com",
-                    "homepage": "http://kevinlebrun.fr",
-                    "role": "developer"
-                }
-            ],
-            "description": "Colors for PHP CLI scripts",
-            "homepage": "https://github.com/kevinlebrun/colors.php",
-            "keywords": [
-                "cli",
-                "color",
-                "colors",
-                "console",
-                "shell"
-            ],
-            "time": "2018-05-30T08:34:23+00:00"
+            "time": "2020-03-22T18:12:45+00:00"
         },
         {
             "name": "pear/console_table",
