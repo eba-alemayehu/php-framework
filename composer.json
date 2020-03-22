@@ -8,7 +8,6 @@
     ],
     "require": {
         "vlucas/phpdotenv": "^4.1",
-        "kevinlebrun/colors.php": "^1.0",
         "dmu/commander": "^1.0",
         "dmu/application": "^1.0"
     }, 

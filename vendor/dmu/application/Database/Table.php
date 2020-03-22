@@ -28,7 +28,7 @@ class Table extends Connection
         parent::__construct();
         $table_name = explode("\\", get_class($this));
         $this->table = strtolower($table_name[count($table_name)-1]);
-        $this->table = str_replace('migration', "", $this->table); 
+        $this->table = str_replace('Migration', "", $this->table); 
         $this->_create_table_statement = "CREATE TABLE $this->table ";
         $this->cols = [];
     }
