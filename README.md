@@ -18,7 +18,7 @@ If you are on windows and using XAMPP you need to configer global path variable 
 To create new project it is easy. first clone the project from git hub. 
 
 ``` bash
-   $ git clone https://github.com/eba-alemayehu/php-framework.git
+   $ git clone --depth 1 https://github.com/eba-alemayehu/php-framework.git
 ```
 
 After cloing the git repo, go to the project dir and install all composer dependencies 
